@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Рисовашка</string>
+    <string name="action_menu_about">О приложении</string>
+    <string name="about_message">Это приложение для рисования и начальных навыков письма. Настраивайте кисть, выбирайте в боковом меню букву и обводите ее или просто рисуйте в удовольствие :)</string>
+    <string name="brush_size">Размер кисти</string>
+    <string name="dialog_button_ok">Ок</string>
+    <string name="dialog_title">О приложении..</string>
+    <string name="letters">Алфавит</string>
+    <string name="brush_color">Цвет кисти</string>
+    <string name="background">Фон</string>
+</resources>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="А"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Б"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="В"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Г"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ґ"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Д"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Е"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Є"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ж"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="З"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="И"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="І"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ї"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Й"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="К"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Л"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="М"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Н"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="О"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="П"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Р"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="С"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Т"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="У"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ф"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Х"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ц"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ч"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ш"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Щ"
+            android:textSize="30dp"
+            android:clickable="true" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/l31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text=""
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ь"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ю"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Я"
+            android:textSize="30dp"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/l35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text=""
+            android:textSize="30dp"
+            android:clickable="true" />
+
+
+    </TableRow>
+
+
+</TableLayout>

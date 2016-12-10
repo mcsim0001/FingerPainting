@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Little paint</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_menu_about">About</string>
+    <string name="dialog_title">About application..</string>
+    <string name="about_message">" This app for drawing and early writing skills. Adjust the brush, select the letter in the sidebar and tracing it, or simply draw a pleasure :)"</string>
+    <string name="dialog_button_ok">Ok</string>
+    <string name="brush_size">Brush size</string>
+    <string name="brush_color">Brush color</string>
+    <string name="background">Background</string>
+    <string name="letters">Letters</string>
+</resources>

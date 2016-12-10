@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_bg_white"
+            android:background="@color/white"
+            style="@style/colorButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_black"
+            android:background="@color/black"
+            style="@style/colorButtonStyle" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_red"
+            style="@style/colorButtonStyle"
+            android:background="@color/red" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_bg_orange"
+            style="@style/colorButtonStyle"
+            android:background="@color/orange" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_yellow"
+            style="@style/colorButtonStyle"
+            android:background="@color/yellow" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_green"
+            style="@style/colorButtonStyle"
+            android:background="@color/green" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_bg_light_blue"
+            style="@style/colorButtonStyle"
+            android:background="@color/light_blue" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_dark_blue"
+            style="@style/colorButtonStyle"
+            android:background="@color/dark_blue" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_purple"
+            style="@style/colorButtonStyle"
+            android:background="@color/purple" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ib_bg_picture1"
+            style="@style/colorButtonStyle"
+            android:background="@drawable/schoolboard40x40" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_picture2"
+            style="@style/colorButtonStyle"
+            android:background="@drawable/final_full40x40" />
+
+        <ImageButton
+            android:id="@+id/ib_bg_picture3"
+            style="@style/colorButtonStyle"
+            android:background="@drawable/recycled_texture40x40" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
