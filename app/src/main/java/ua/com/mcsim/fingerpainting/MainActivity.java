@@ -17,9 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
-import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
@@ -27,8 +25,7 @@ public class MainActivity extends AppCompatActivity
 
     private DrawView drawView;
     private FrameLayout frame;
-    private SeekBar sbSize;
-    private TextView tvBrushWidth, letter;
+    private TextView letter;
     private ExpandableListView elvMain;
     private DrawerLayout drawer;
     private final String CLEAR = "";
@@ -64,7 +61,7 @@ public class MainActivity extends AppCompatActivity
         drawView = new DrawView(this);
         frame.addView(drawView);
         letter = (TextView) findViewById(R.id.letter);
-        letter.setText(CLEAR);
+        letter.setText("A");
 
         //Create expandable List View
         MyExpandableListAdapter adapter = new MyExpandableListAdapter(this, drawView, drawer, frame, letter);
