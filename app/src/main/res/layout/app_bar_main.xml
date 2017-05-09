@@ -27,27 +27,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="bottom|right">
+        android:gravity="bottom|left"
+        android:orientation="vertical">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_clear_backgnd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/clean40x40"
-            android:layout_marginRight="@dimen/fab_margin"
             android:layout_marginBottom="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light" />
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            app:backgroundTint="@android:color/background_light"
+            app:srcCompat="@drawable/clean40x40" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_clear_letter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_anchorGravity="center_vertical|center_horizontal"
-            app:srcCompat="@drawable/letters2_40x40"
-            android:layout_marginRight="@dimen/fab_margin"
             android:layout_marginBottom="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light" />
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            app:backgroundTint="@android:color/background_light"
+            app:layout_anchorGravity="center_vertical|center_horizontal"
+            app:srcCompat="@drawable/letters2_40x40" />
     </LinearLayout>
 
 
