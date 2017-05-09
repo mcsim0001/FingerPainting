@@ -1,8 +1,11 @@
 package ua.com.mcsim.fingerpainting;
 
 import android.content.DialogInterface;
+import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -13,32 +16,51 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
-import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
 
     private DrawView drawView;
+    private View mContentView;
     private FrameLayout frame;
-    private SeekBar sbSize;
-    private TextView tvBrushWidth, letter;
+    private TextView letter;
     private ExpandableListView elvMain;
     private DrawerLayout drawer;
     private final String CLEAR = "";
+    private String lastLetter;
     private FloatingActionButton fabClearBackgnd,fabClearLetter;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        orientationLocking();
+
+        //***********Fullscreen with action bar
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
+
+
+        //TODO delete toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //***********Hide action bar
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
+        //*********************
+
+
 
         fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
         fabClearBackgnd.setOnClickListener(this);
@@ -60,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         drawView = new DrawView(this);
         frame.addView(drawView);
         letter = (TextView) findViewById(R.id.letter);
-        letter.setText(CLEAR);
+        letter.setText("A");
 
         //Create expandable List View
         MyExpandableListAdapter adapter = new MyExpandableListAdapter(this, drawView, drawer, frame, letter);
@@ -68,6 +90,24 @@ public class MainActivity extends AppCompatActivity
         elvMain = (ExpandableListView) findViewById(R.id.elvMain);
         elvMain.setAdapter(adapter);
 
+    }
+
+    private void orientationLocking() {
+        if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT)
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        else if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
+    }
+
+    private void showhideLetter() {
+        lastLetter = letter.getText().toString();
+        if (lastLetter!= CLEAR) {
+            letter.setText(CLEAR);
+        } else {
+            letter.setText(lastLetter);
+        }
     }
 
     @Override
@@ -133,7 +173,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
             case R.id.fab_clear_letter: {
-                letter.setText(CLEAR);
+                showhideLetter();
                 break;
             }
         }
