@@ -22,11 +22,17 @@ import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
+import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.ButtonEnum;
+import com.nightonke.boommenu.Piece.PiecePlaceEnum;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
 
     private DrawView drawView;
+    private BoomMenuButton bmb;
     private View mContentView;
     private FrameLayout frame;
     private TextView letter;
@@ -56,16 +62,23 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         //***********Hide action bar
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        /*ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();*/
         //*********************
 
+        bmb = (BoomMenuButton) findViewById(R.id.bmb);
+        assert bmb != null;
+        bmb.setButtonEnum(ButtonEnum.SimpleCircle);
+        bmb.setPiecePlaceEnum(PiecePlaceEnum.DOT_9_1);
+        bmb.setButtonPlaceEnum(ButtonPlaceEnum.SC_9_1);
+        for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++)
+            bmb.addBuilder(BoomBuilderManager.getSimpleCircleButtonBuilder());
 
 
-        fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
+        /*fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
         fabClearBackgnd.setOnClickListener(this);
         fabClearLetter = (FloatingActionButton) findViewById(R.id.fab_clear_letter);
-        fabClearLetter.setOnClickListener(this);
+        fabClearLetter.setOnClickListener(this);*/
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -165,7 +178,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        /*switch (view.getId()){
             case R.id.fab_clear_backgnd:{
                 if (drawView!=null) {
                     drawView.clearPoints();
@@ -176,7 +189,7 @@ public class MainActivity extends AppCompatActivity
                 showhideLetter();
                 break;
             }
-        }
+        }*/
 
     }
 }
