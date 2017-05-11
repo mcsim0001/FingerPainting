@@ -21,7 +21,6 @@ public class DrawView extends View implements View.OnTouchListener {
 
     List<Point> points = new ArrayList<Point>();
     Paint paint = new Paint();
-    Random gen;
     int col_mode;
     int wid_mode;
 
@@ -31,7 +30,7 @@ public class DrawView extends View implements View.OnTouchListener {
         // set default colour to white
         col_mode = Color.WHITE;
 
-        // set default width to 7px
+        // set default width to 10px
         wid_mode = 10;
 
         setFocusable(true);
