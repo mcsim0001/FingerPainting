@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
     private ExpandableListView elvMain;
     private DrawerLayout drawer;
     private final String CLEAR = "";
-    private String lastLetter;
+    private String lastLetter = CLEAR;
     private FloatingActionButton fabClearBackgnd,fabClearLetter;
 
 
@@ -102,8 +102,9 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void showhideLetter() {
-        lastLetter = letter.getText().toString();
-        if (lastLetter!= CLEAR) {
+
+        if (!letter.getText().toString().equals(CLEAR)) {
+            lastLetter = letter.getText().toString();
             letter.setText(CLEAR);
         } else {
             letter.setText(lastLetter);
