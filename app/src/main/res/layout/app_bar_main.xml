@@ -27,29 +27,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom|left"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="bottom|right">
 
-        <android.support.design.widget.FloatingActionButton
+        <!--<android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_clear_backgnd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginLeft="@dimen/fab_margin"
+            app:srcCompat="@drawable/clean40x40"
             android:layout_marginRight="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light"
-            app:srcCompat="@drawable/clean40x40" />
+            android:layout_marginBottom="@dimen/fab_margin"
+            app:backgroundTint="@android:color/background_light" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_clear_letter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginLeft="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light"
             app:layout_anchorGravity="center_vertical|center_horizontal"
-            app:srcCompat="@drawable/letters2_40x40" />
+<<<<<<< HEAD
+            app:srcCompat="@drawable/letters2_40x40" />-->
+=======
+            app:srcCompat="@drawable/letters2_40x40"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            app:backgroundTint="@android:color/background_light" />
+>>>>>>> parent of 5ca24a8... full screen
     </LinearLayout>
 
 

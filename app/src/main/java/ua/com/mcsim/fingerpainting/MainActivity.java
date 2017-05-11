@@ -5,7 +5,6 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -16,56 +15,64 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+
+import com.nightonke.boommenu.BoomButtons.ButtonPlaceEnum;
+import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.ButtonEnum;
+import com.nightonke.boommenu.Piece.PiecePlaceEnum;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
 
     private DrawView drawView;
+<<<<<<< HEAD
+    private BoomMenuButton bmb;
     private View mContentView;
+=======
+>>>>>>> parent of 5ca24a8... full screen
     private FrameLayout frame;
     private TextView letter;
     private ExpandableListView elvMain;
     private DrawerLayout drawer;
     private final String CLEAR = "";
-    private String lastLetter;
     private FloatingActionButton fabClearBackgnd,fabClearLetter;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         orientationLocking();
-
-        //***********Fullscreen with action bar
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
         setContentView(R.layout.activity_main);
 
-
-        //TODO delete toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+<<<<<<< HEAD
         //***********Hide action bar
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        /*ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();*/
         //*********************
 
+        bmb = (BoomMenuButton) findViewById(R.id.bmb);
+        assert bmb != null;
+        bmb.setButtonEnum(ButtonEnum.SimpleCircle);
+        bmb.setPiecePlaceEnum(PiecePlaceEnum.DOT_9_1);
+        bmb.setButtonPlaceEnum(ButtonPlaceEnum.SC_9_1);
+        for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++)
+            bmb.addBuilder(BoomBuilderManager.getSimpleCircleButtonBuilder());
 
 
+        /*fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
+=======
         fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
+>>>>>>> parent of 5ca24a8... full screen
         fabClearBackgnd.setOnClickListener(this);
         fabClearLetter = (FloatingActionButton) findViewById(R.id.fab_clear_letter);
-        fabClearLetter.setOnClickListener(this);
+        fabClearLetter.setOnClickListener(this);*/
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -99,15 +106,6 @@ public class MainActivity extends AppCompatActivity
         else if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE)
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
-    }
-
-    private void showhideLetter() {
-        lastLetter = letter.getText().toString();
-        if (lastLetter!= CLEAR) {
-            letter.setText(CLEAR);
-        } else {
-            letter.setText(lastLetter);
-        }
     }
 
     @Override
@@ -165,7 +163,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()){
+        /*switch (view.getId()){
             case R.id.fab_clear_backgnd:{
                 if (drawView!=null) {
                     drawView.clearPoints();
@@ -173,10 +171,10 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
             case R.id.fab_clear_letter: {
-                showhideLetter();
+                letter.setText(CLEAR);
                 break;
             }
-        }
+        }*/
 
     }
 }
