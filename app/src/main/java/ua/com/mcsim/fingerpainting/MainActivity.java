@@ -144,8 +144,6 @@ public class MainActivity extends AppCompatActivity
 
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    // TODO Auto-generated method stub
-
                 }
             });
             alertDialog.show();
@@ -170,6 +168,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.fab_clear_backgnd:{
                 if (drawView!=null) {
                     drawView.clearPoints();
+                    drawer.openDrawer(GravityCompat.END);
                 }
                 break;
             }

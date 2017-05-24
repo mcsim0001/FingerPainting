@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bmb_text_inside_circle_button.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\layout\\bmb_text_inside_circle_button.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bmb.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\layout\\bmb.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bmb_text_outside_circle_button.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\layout\\bmb_text_outside_circle_button.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bmb_simple_circle_button.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\layout\\bmb_simple_circle_button.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bmb_ham_button.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\layout\\bmb_ham_button.xml"
+    }
+]

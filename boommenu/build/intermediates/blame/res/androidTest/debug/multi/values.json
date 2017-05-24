@@ -1,0 +1,1242 @@
+[
+    {
+        "outputFile": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 58,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 58,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 58,
+                    "endOffset": 218
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 58,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 223,
+                    "endColumn": 58,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 58,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 58,
+                    "endOffset": 336
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 58,
+                        "endOffset": 336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 341,
+                    "endColumn": 51,
+                    "endOffset": 388
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 341,
+                        "endColumn": 51,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 393,
+                    "endColumn": 52,
+                    "endOffset": 441
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 52,
+                        "endOffset": 441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 446,
+                    "endColumn": 48,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 48,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 54,
+                    "endOffset": 545
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 54,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 550,
+                    "endColumn": 54,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 54,
+                        "endOffset": 600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 56,
+                    "endOffset": 657
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 605,
+                        "endColumn": 56,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 662,
+                    "endColumn": 65,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 65,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 58,
+                    "endOffset": 782
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 728,
+                        "endColumn": 58,
+                        "endOffset": 782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 787,
+                    "endColumn": 60,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 787,
+                        "endColumn": 60,
+                        "endOffset": 843
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 63,
+                    "endOffset": 907
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 848,
+                        "endColumn": 63,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 912,
+                    "endColumn": 63,
+                    "endOffset": 971
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 63,
+                        "endOffset": 971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 976,
+                    "endColumn": 60,
+                    "endOffset": 1032
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 976,
+                        "endColumn": 60,
+                        "endOffset": 1032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 19474,
+                    "endColumn": 66,
+                    "endOffset": 19536
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 19474,
+                        "endColumn": 66,
+                        "endOffset": 19536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 19541,
+                    "endColumn": 61,
+                    "endOffset": 19598
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 19541,
+                        "endColumn": 61,
+                        "endOffset": 19598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 19603,
+                    "endColumn": 65,
+                    "endOffset": 19664
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 19603,
+                        "endColumn": 65,
+                        "endOffset": 19664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 19669,
+                    "endColumn": 63,
+                    "endOffset": 19728
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 19669,
+                        "endColumn": 63,
+                        "endOffset": 19728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 19733,
+                    "endColumn": 59,
+                    "endOffset": 19788
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 19733,
+                        "endColumn": 59,
+                        "endOffset": 19788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 19793,
+                    "endColumn": 60,
+                    "endOffset": 19849
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 19793,
+                        "endColumn": 60,
+                        "endOffset": 19849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 19854,
+                    "endColumn": 58,
+                    "endOffset": 19908
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 19854,
+                        "endColumn": 58,
+                        "endOffset": 19908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 19913,
+                    "endColumn": 63,
+                    "endOffset": 19972
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 19913,
+                        "endColumn": 63,
+                        "endOffset": 19972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 19977,
+                    "endColumn": 56,
+                    "endOffset": 20029
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 19977,
+                        "endColumn": 56,
+                        "endOffset": 20029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 20034,
+                    "endColumn": 51,
+                    "endOffset": 20081
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 20034,
+                        "endColumn": 51,
+                        "endOffset": 20081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 20086,
+                    "endColumn": 51,
+                    "endOffset": 20133
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 20086,
+                        "endColumn": 51,
+                        "endOffset": 20133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 20138,
+                    "endColumn": 51,
+                    "endOffset": 20185
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 20138,
+                        "endColumn": 51,
+                        "endOffset": 20185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 20190,
+                    "endColumn": 60,
+                    "endOffset": 20246
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 20190,
+                        "endColumn": 60,
+                        "endOffset": 20246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 20251,
+                    "endColumn": 60,
+                    "endOffset": 20307
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 20251,
+                        "endColumn": 60,
+                        "endOffset": 20307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 20312,
+                    "endColumn": 60,
+                    "endOffset": 20368
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 20312,
+                        "endColumn": 60,
+                        "endOffset": 20368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 20373,
+                    "endColumn": 65,
+                    "endOffset": 20434
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 20373,
+                        "endColumn": 65,
+                        "endOffset": 20434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 20439,
+                    "endColumn": 77,
+                    "endOffset": 20512
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 20439,
+                        "endColumn": 77,
+                        "endOffset": 20512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 20517,
+                    "endColumn": 63,
+                    "endOffset": 20576
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 20517,
+                        "endColumn": 63,
+                        "endOffset": 20576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 20581,
+                    "endColumn": 57,
+                    "endOffset": 20634
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 20581,
+                        "endColumn": 57,
+                        "endOffset": 20634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 20639,
+                    "endColumn": 57,
+                    "endOffset": 20692
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 20639,
+                        "endColumn": 57,
+                        "endOffset": 20692
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 20697,
+                    "endColumn": 55,
+                    "endOffset": 20748
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 20697,
+                        "endColumn": 55,
+                        "endOffset": 20748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 20753,
+                    "endColumn": 58,
+                    "endOffset": 20807
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 20753,
+                        "endColumn": 58,
+                        "endOffset": 20807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 20812,
+                    "endColumn": 59,
+                    "endOffset": 20867
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 20812,
+                        "endColumn": 59,
+                        "endOffset": 20867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 20872,
+                    "endColumn": 63,
+                    "endOffset": 20931
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 20872,
+                        "endColumn": 63,
+                        "endOffset": 20931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 20936,
+                    "endColumn": 62,
+                    "endOffset": 20994
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 20936,
+                        "endColumn": 62,
+                        "endOffset": 20994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 20999,
+                    "endColumn": 68,
+                    "endOffset": 21063
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 20999,
+                        "endColumn": 68,
+                        "endOffset": 21063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 21068,
+                    "endColumn": 67,
+                    "endOffset": 21131
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 21068,
+                        "endColumn": 67,
+                        "endOffset": 21131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 21136,
+                    "endColumn": 69,
+                    "endOffset": 21201
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 21136,
+                        "endColumn": 69,
+                        "endOffset": 21201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 21206,
+                    "endColumn": 68,
+                    "endOffset": 21270
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 21206,
+                        "endColumn": 68,
+                        "endOffset": 21270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 21275,
+                    "endColumn": 52,
+                    "endOffset": 21323
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 21275,
+                        "endColumn": 52,
+                        "endOffset": 21323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 21328,
+                    "endColumn": 68,
+                    "endOffset": 21392
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 21328,
+                        "endColumn": 68,
+                        "endOffset": 21392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 21397,
+                    "endColumn": 60,
+                    "endOffset": 21453
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 21397,
+                        "endColumn": 60,
+                        "endOffset": 21453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 21458,
+                    "endColumn": 56,
+                    "endOffset": 21510
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 21458,
+                        "endColumn": 56,
+                        "endOffset": 21510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 21515,
+                    "endColumn": 51,
+                    "endOffset": 21562
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 21515,
+                        "endColumn": 51,
+                        "endOffset": 21562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 21567,
+                    "endColumn": 54,
+                    "endOffset": 21617
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 21567,
+                        "endColumn": 54,
+                        "endOffset": 21617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 21622,
+                    "endColumn": 58,
+                    "endOffset": 21676
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 21622,
+                        "endColumn": 58,
+                        "endOffset": 21676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 21681,
+                    "endColumn": 61,
+                    "endOffset": 21738
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 21681,
+                        "endColumn": 61,
+                        "endOffset": 21738
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 21743,
+                    "endColumn": 63,
+                    "endOffset": 21802
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 21743,
+                        "endColumn": 63,
+                        "endOffset": 21802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 21807,
+                    "endColumn": 62,
+                    "endOffset": 21865
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 21807,
+                        "endColumn": 62,
+                        "endOffset": 21865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 21870,
+                    "endColumn": 53,
+                    "endOffset": 21919
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 21870,
+                        "endColumn": 53,
+                        "endOffset": 21919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 21924,
+                    "endColumn": 54,
+                    "endOffset": 21974
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 21924,
+                        "endColumn": 54,
+                        "endOffset": 21974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 21979,
+                    "endColumn": 58,
+                    "endOffset": 22033
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 21979,
+                        "endColumn": 58,
+                        "endOffset": 22033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 22038,
+                    "endColumn": 54,
+                    "endOffset": 22088
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 22038,
+                        "endColumn": 54,
+                        "endOffset": 22088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 22093,
+                    "endColumn": 58,
+                    "endOffset": 22147
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 22093,
+                        "endColumn": 58,
+                        "endOffset": 22147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 22152,
+                    "endColumn": 61,
+                    "endOffset": 22209
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 22152,
+                        "endColumn": 61,
+                        "endOffset": 22209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 22214,
+                    "endColumn": 63,
+                    "endOffset": 22273
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 22214,
+                        "endColumn": 63,
+                        "endOffset": 22273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 22278,
+                    "endColumn": 62,
+                    "endOffset": 22336
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 22278,
+                        "endColumn": 62,
+                        "endOffset": 22336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 22341,
+                    "endColumn": 51,
+                    "endOffset": 22388
+                },
+                "from": {
+                    "file": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 22341,
+                        "endColumn": 51,
+                        "endOffset": 22388
+                    }
+                }
+            }
+        ]
+    }
+]

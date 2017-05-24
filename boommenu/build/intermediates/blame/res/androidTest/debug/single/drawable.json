@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_oval_normal.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_oval_normal.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\piece_dot.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\drawable\\piece_dot.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\piece.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\drawable\\piece.xml"
+    },
+    {
+        "merged": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_rectangle_normal.xml",
+        "source": "C:\\android\\Project\\FingerPainting\\boommenu\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_rectangle_normal.xml"
+    }
+]
