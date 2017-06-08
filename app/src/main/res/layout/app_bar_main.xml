@@ -7,50 +7,45 @@
     android:fitsSystemWindows="true"
     tools:context="ua.com.mcsim.fingerpainting.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:title="Paint"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </android.support.design.widget.AppBarLayout>
-
     <include layout="@layout/content_main" />
 
-    <LinearLayout
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom|left"
         android:orientation="vertical">
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_clear_backgnd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginLeft="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light"
-            app:srcCompat="@drawable/clean40x40" />
+        <ImageButton
+            android:id="@+id/btn_letter"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/letters2_40x40"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp" />
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab_clear_letter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginLeft="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"
-            app:backgroundTint="@android:color/background_light"
-            app:layout_anchorGravity="center_vertical|center_horizontal"
-            app:srcCompat="@drawable/letters2_40x40" />
-    </LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_erase"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/clean40x40"
+            app:layout_constraintBottom_toTopOf="@+id/btn_letter"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btn_palette"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/palette"
+            app:layout_constraintBottom_toTopOf="@+id/btn_erase"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>

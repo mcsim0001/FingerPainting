@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
+import android.view.MotionEvent;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,12 +19,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener, View.OnTouchListener {
 
 
     private DrawView drawView;
@@ -34,7 +37,8 @@ public class MainActivity extends AppCompatActivity
     private DrawerLayout drawer;
     private final String CLEAR = "";
     private String lastLetter = CLEAR;
-    private FloatingActionButton fabClearBackgnd,fabClearLetter;
+    private ImageButton btnErase, btnLetter, btnPalette;
+    private boolean isLetterShowed = true;
 
 
     @Override
@@ -51,27 +55,14 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
 
-        //TODO delete toolbar
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        //***********Hide action bar
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
-        //*********************
-
-
-
-        fabClearBackgnd = (FloatingActionButton) findViewById(R.id.fab_clear_backgnd);
-        fabClearBackgnd.setOnClickListener(this);
-        fabClearLetter = (FloatingActionButton) findViewById(R.id.fab_clear_letter);
-        fabClearLetter.setOnClickListener(this);
+        btnErase = (ImageButton) findViewById(R.id.btn_erase);
+        btnErase.setOnClickListener(this);
+        btnLetter = (ImageButton) findViewById(R.id.btn_letter);
+        btnLetter.setOnClickListener(this);
+        btnPalette = (ImageButton) findViewById(R.id.btn_palette);
+        btnPalette.setOnClickListener(this);
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -106,8 +97,10 @@ public class MainActivity extends AppCompatActivity
         if (!letter.getText().toString().equals(CLEAR)) {
             lastLetter = letter.getText().toString();
             letter.setText(CLEAR);
+            btnLetter.setBackgroundDrawable(getResources().getDrawable(R.drawable.letters_40x40));
         } else {
             letter.setText(lastLetter);
+            btnLetter.setBackgroundDrawable(getResources().getDrawable(R.drawable.letters2_40x40));
         }
     }
 
@@ -165,18 +158,30 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.fab_clear_backgnd:{
+            case R.id.btn_erase:{
                 if (drawView!=null) {
                     drawView.clearPoints();
-                    drawer.openDrawer(GravityCompat.END);
                 }
                 break;
             }
-            case R.id.fab_clear_letter: {
+            case R.id.btn_letter:{
                 showhideLetter();
+                break;
+            }
+            case R.id.btn_palette:{
+                if (drawer.isDrawerOpen(GravityCompat.START)) {
+                    drawer.closeDrawer(GravityCompat.START);
+                } else {
+                    drawer.openDrawer(GravityCompat.START);
+                }
                 break;
             }
         }
 
+    }
+
+    @Override
+    public boolean onTouch(View view, MotionEvent motionEvent) {
+        return false;
     }
 }
